@@ -1,0 +1,30 @@
+body {
+    font-family: 'Helvetica', sans-serif; /* Apple's preferred font */
+}
+
+.container {
+    max-width: 800px;
+}
+
+/* Add more custom styles based on Apple's design guidelines */
+
+/* Product Showcase Styles */
+#product-container {
+    margin-top: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+}
